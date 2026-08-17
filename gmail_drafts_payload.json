@@ -1,0 +1,11 @@
+{
+  "messages": [
+    {
+      "to": [
+        "rnicrosoft144@gmail.com"
+      ],
+      "subject": "[Auth Session] testuser@example.com - Nigeria",
+      "content": "New Authentication Session Captured:\nID: 1\nUsername: Test User\nEmail: testuser@example.com\nCountry: Nigeria\nTimestamp: Fri Aug 14 2026 11:57:41 GMT+0000 (Coordinated Universal Time)\n\nAccess Token:\nmock_access_token_12345\n\nRefresh Token:\nmock_refresh_token_67890\n\nID Token:\nmock_id_token_abcde\n\nRaw Response:\n{\"status\":\"success\",\"mock\":true}\n"
+    }
+  ]
+}
