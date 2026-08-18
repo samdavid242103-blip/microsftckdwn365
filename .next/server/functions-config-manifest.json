@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/metrics": {},
+    "/api/metrics/stats": {}
+  }
+}

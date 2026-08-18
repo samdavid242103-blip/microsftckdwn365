@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/admin/export/route": "/api/admin/export",
+  "/api/auth/callback/microsoft/route": "/api/auth/callback/microsoft",
+  "/api/auth/device-code/route": "/api/auth/device-code",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/poll-token/route": "/api/auth/poll-token",
+  "/api/auth/verify-turnstile/route": "/api/auth/verify-turnstile",
+  "/api/cookie-upload/route": "/api/cookie-upload",
+  "/api/geo/route": "/api/geo",
+  "/api/metrics/route": "/api/metrics",
+  "/api/metrics/stats/route": "/api/metrics/stats",
+  "/cookie-viewer/page": "/cookie-viewer",
+  "/page": "/"
+}

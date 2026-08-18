@@ -1,0 +1,3 @@
+{
+  "/api/auth/verify-turnstile/route": "app/api/auth/verify-turnstile/route.js"
+}

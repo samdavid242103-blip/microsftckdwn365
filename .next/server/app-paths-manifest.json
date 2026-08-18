@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/admin/export/route": "app/api/admin/export/route.js",
+  "/api/auth/callback/microsoft/route": "app/api/auth/callback/microsoft/route.js",
+  "/api/auth/device-code/route": "app/api/auth/device-code/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/poll-token/route": "app/api/auth/poll-token/route.js",
+  "/api/auth/verify-turnstile/route": "app/api/auth/verify-turnstile/route.js",
+  "/api/cookie-upload/route": "app/api/cookie-upload/route.js",
+  "/api/geo/route": "app/api/geo/route.js",
+  "/api/metrics/route": "app/api/metrics/route.js",
+  "/api/metrics/stats/route": "app/api/metrics/stats/route.js",
+  "/cookie-viewer/page": "app/cookie-viewer/page.js",
+  "/page": "app/page.js"
+}

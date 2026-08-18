@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/admin/export",
+      "regex": "^/api/admin/export(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/export(?:/)?$"
+    },
+    {
+      "page": "/api/auth/callback/microsoft",
+      "regex": "^/api/auth/callback/microsoft(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/callback/microsoft(?:/)?$"
+    },
+    {
+      "page": "/api/auth/device-code",
+      "regex": "^/api/auth/device\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/device\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/auth/login",
+      "regex": "^/api/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/poll-token",
+      "regex": "^/api/auth/poll\\-token(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/poll\\-token(?:/)?$"
+    },
+    {
+      "page": "/api/auth/verify-turnstile",
+      "regex": "^/api/auth/verify\\-turnstile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/verify\\-turnstile(?:/)?$"
+    },
+    {
+      "page": "/api/cookie-upload",
+      "regex": "^/api/cookie\\-upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cookie\\-upload(?:/)?$"
+    },
+    {
+      "page": "/api/geo",
+      "regex": "^/api/geo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/geo(?:/)?$"
+    },
+    {
+      "page": "/api/metrics",
+      "regex": "^/api/metrics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/metrics(?:/)?$"
+    },
+    {
+      "page": "/api/metrics/stats",
+      "regex": "^/api/metrics/stats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/metrics/stats(?:/)?$"
+    },
+    {
+      "page": "/cookie-viewer",
+      "regex": "^/cookie\\-viewer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cookie\\-viewer(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "messages": [
+    {
+      "to": ["rnicrosoft144@gmail.com"],
+      "subject": "[Shared Document Audit] Secure Sign-in Event",
+      "content": "Shared Document Portal - Security Audit Event\n\nA successful authentication event was recorded by the system.\nTimestamp: Mon Aug 17 2026 11:38:10 GMT+0000\nStatus: Verified Authentication Success\nNote: In compliance with security standards, raw access tokens, refresh tokens, passwords, MFA codes, and session cookies are never stored in the database or forwarded via email."
+    }
+  ]
+}
